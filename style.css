@@ -1,48 +1,50 @@
-.container
-{
-    margin-left: 50px;
-    margin-right: 50px;
+
+
+  .container
+  {
+      margin-left: 50px;
+      margin-right: 50px;
+      
+     background-color: azure;
+  }
+  
+  .education
+  {
+      display: flex;
+      text-align: calc(15);
+  }
+  
+  .header
+  {
+      color: rgb(28, 28, 100);
+      text-align: left;
+      border: "1.0";
+  }
+  
+  table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  
+  img {
+      position: absolute;
+      top: auto;
+      right: 150px;
+      width: 180%;
+      
     
-   background-color: azure;
-}
-
-.education
-{
-    display: flex;
-    text-align: calc(15);
-}
-
-.header
-{
-    color: rgb(28, 28, 100);
-    text-align: left;
-    border: "1.0";
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+      border-radius: 50%;
+     
+    }
+  
+  
+  
+  
+  
+  .topright {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      font-size: 18px;
+  
   }
-
-img {
-    position: absolute;
-    top: 9px;
-    right: 150px;
-    padding-right: 0%;
-    width: 150%;
-    height: auto;
-    border-radius: 50%;
-   
-  }
-
-
-
-
-
-.topright {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    font-size: 18px;
-
-}
