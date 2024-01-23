@@ -2,6 +2,8 @@
 {
     margin-left: 50px;
     margin-right: 50px;
+    
+   background-color: azure;
 }
 
 .education
@@ -13,11 +15,38 @@
 .header
 {
     color: rgb(28, 28, 100);
-    text-align: center;
+    text-align: left;
+    border: "1.0";
 }
 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
   }
+
+img {
+    position: absolute;
+    top: 9px;
+    right: 150px;
+    padding-right: 0%;
+    width: 7%;
+    height: auto;
+    border-radius: 50%;
+   
+  }
+
+
+
+.imagepos {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
 
